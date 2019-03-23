@@ -192,10 +192,16 @@ section a {
 
 .contact-wrap h2, .contact-wrap h4 {
 	font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 .contact-wrap form {
-	margin-top: 30px;
+	margin-top: 40px;
+	font-size: 22px;
+}
+
+form ::placeholder {
+	font-size: 13px;
 }
 
 .title-holder {
@@ -240,7 +246,10 @@ section a {
 }
 
 .about-wrap .definition{margin-bottom: 20px;}
-.about-wrap .definition p{color: #333;}
+.about-wrap .definition p{
+	color: #333;
+	font-size: 20px;
+}
 .about-wrap .definition strong{color: rgb(48, 45, 227);}
 
 .about-wrap .short-info{
@@ -249,6 +258,7 @@ section a {
 	clear: both;
 	float: left;
 	margin-bottom: 13px;
+	font-size: 20px;
 	
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
@@ -270,7 +280,7 @@ section a {
 .short-info ul li label{
 	font-family: "Montserrat";
 	font-weight: 700;
-	font-size: 13px;
+	font-size: 20px;
 	color: #000;
 	min-width: 85px;
 	display: inline-block;
@@ -291,6 +301,7 @@ section a {
 .about-wrap .footer a {
 	text-decoration: none;
 	color: red;
+	font-size: 20px;
 }
 
 .modal {
